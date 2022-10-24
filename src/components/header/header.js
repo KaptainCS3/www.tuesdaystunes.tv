@@ -1,7 +1,7 @@
 export default class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <header>
+      <header class="pt-10">
         <a
           class="flex justify-center p-2"
           href="/"
